@@ -1,7 +1,7 @@
 import cv2
 
 # Lade das gewünschte Bild
-img_path = 'lena'  # Ersetze durch den Pfad zu deinem Bild
+img_path = 'lena.jpg'  # Ersetze durch den Pfad zu deinem Bild
 img = cv2.imread(img_path)
 
 # Lade den Haar-Klassifikator für Gesichter
